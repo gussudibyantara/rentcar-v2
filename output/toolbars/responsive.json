@@ -1,0 +1,482 @@
+[
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 320
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 360
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 390
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 430
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 431
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 767
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 768
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 820
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1024
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1199
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1200
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1280
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1350
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1351
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1440
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/maintenance",
+    "width": 1920
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 320
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 360
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 390
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 430
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 431
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 767
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 768
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 820
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1024
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1199
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1200
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1280
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1350
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1351
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1440
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/inspections",
+    "width": 1920
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 320
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 360
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 390
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 430
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 431
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 767
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 768
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 820
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1024
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1199
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1200
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1280
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1350
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1351
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1440
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/employees",
+    "width": 1920
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 320
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 360
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 390
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 430
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 431
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 767
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 768
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 820
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1024
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1199
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1200
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1280
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1350
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1351
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1440
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/settlements",
+    "width": 1920
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 320
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 360
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 390
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 430
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 431
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 767
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 768
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 820
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1024
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1199
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1200
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1280
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1350
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1351
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1440
+  },
+  {
+    "clipped": false,
+    "overflow": false,
+    "route": "/expenses",
+    "width": 1920
+  }
+]

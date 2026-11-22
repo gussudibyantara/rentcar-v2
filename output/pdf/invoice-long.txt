@@ -1,0 +1,273 @@
+                             BetterWorks Rental                                                 INVOICE
+                             Jl. Contoh Usaha No. 10
+                                                                                                      SEBAGIAN
+                             Mataram, Lombok
+                             081234567890 | rental@example.invalid
+
+
+Nomor: INV-2026-000002 | Booking: RN-10481
+Terbit: 2026-11-02 | Jatuh tempo: 2026-11-10 | Cabang: Lombok
+
+DITAGIHKAN KEPADA
+
+Siti Rahmawati
+customer2@example.com
+
+PERIODE DAN KENDARAAN
+
+Toyota Innova Reborn - DR 1456 BC
+1 Nov 2026, 09.00 s/d 3 Nov 2026, 17.00 WITA
+
+RINCIAN TAGIHAN
+
+  DESKRIPSI                                                      QTY     HARGA                    JUMLAH
+
+
+
+  Sewa kendaraan (3 hari)                                            1           Rp 1.650.000     Rp 1.650.000
+
+
+  Layanan tambahan 1 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 2 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 3 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 4 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 5 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 6 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 7 dengan penjelasan panjang untuk                 2            Rp 123.456        Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+
+
+
+TravelOS | Invoice rental | IDR                                                                            1/5
+BetterWorks Rental
+INV-2026-000002 / RN-10481
+
+
+
+  DESKRIPSI                                                QTY   HARGA                JUMLAH
+
+
+
+  Layanan tambahan 8 dengan penjelasan panjang untuk       2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 9 dengan penjelasan panjang untuk       2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 10 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 11 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 12 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 13 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 14 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 15 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 16 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 17 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 18 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 19 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+
+
+
+TravelOS | Invoice rental | IDR                                                                2/5
+BetterWorks Rental
+INV-2026-000002 / RN-10481
+
+
+
+  DESKRIPSI                                                QTY   HARGA                JUMLAH
+
+
+
+  Layanan tambahan 20 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 21 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 22 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 23 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 24 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 25 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 26 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 27 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 28 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 29 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 30 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 31 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+
+
+
+TravelOS | Invoice rental | IDR                                                                3/5
+BetterWorks Rental
+INV-2026-000002 / RN-10481
+
+
+
+  DESKRIPSI                                                QTY   HARGA                JUMLAH
+
+
+
+  Layanan tambahan 32 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 33 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 34 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 35 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 36 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 37 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 38 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 39 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+  Layanan tambahan 40 dengan penjelasan panjang untuk      2             Rp 123.456     Rp 246.912
+  memeriksa pembagian halaman dan kerapian rincian biaya
+  rental.
+
+
+
+
+TravelOS | Invoice rental | IDR                                                                4/5
+BetterWorks Rental
+INV-2026-000002 / RN-10481
+
+
+
+
+                                                         Subtotal                    Rp 11.526.480
+
+                                                         Diskon                                 Rp 0
+
+                                                         Pajak manual (5%)             Rp 576.324
+
+                                                         Total tagihan           Rp 12.102.804
+                                                         Sudah dibayar               Rp 1.650.000
+
+                                                         Sisa tagihan            Rp 10.452.804
+
+PEMBAYARAN
+
+Tanggal kas tidak tersedia | Saldo awal booking | Rp 1.650.000
+Referensi: RN-10481
+
+INSTRUKSI PEMBAYARAN
+
+Transfer ke rekening usaha. Cantumkan nomor invoice pada referensi pembayaran.
+
+CATATAN
+
+Catatan dokumen panjang untuk pengujian.
+
+KETENTUAN
+
+Pembayaran mengikuti jatuh tempo dan nomor invoice yang tercantum.
+
+DP mengurangi tagihan sewa. Deposit jaminan tidak termasuk invoice ini.
+
+
+
+
+TravelOS | Invoice rental | IDR                                                           5/5
+

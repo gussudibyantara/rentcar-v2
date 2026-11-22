@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-11-02T11:37:23.269Z",
+  "routes": [
+    "/",
+    "/reports",
+    "/bookings",
+    "/calendar",
+    "/units",
+    "/maintenance",
+    "/inspections",
+    "/partners",
+    "/customers",
+    "/invoices",
+    "/expenses",
+    "/settlements"
+  ],
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    600,
+    760,
+    761,
+    768,
+    820,
+    1024,
+    1025,
+    1100,
+    1101,
+    1280,
+    1440,
+    1920
+  ],
+  "landscapes": [
+    {
+      "width": 844,
+      "height": 390
+    },
+    {
+      "width": 1180,
+      "height": 820
+    }
+  ],
+  "checks": 288,
+  "errors": []
+}

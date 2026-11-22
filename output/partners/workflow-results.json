@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Profil pemilik dan skema harian tersimpan tanpa mengubah transaksi lama",
+    "Rekonsiliasi historis, biaya usaha/pemilik dan invoice sumber berhasil",
+    "Rekap Oktober membagi rental lintas bulan dan memisahkan hak pemilik dari keuntungan",
+    "Transfer sebagian tercatat sekali, tersinkron Pengeluaran, retry aman",
+    "Koreksi berjejak, pelunasan, unduh PDF langsung dan reload berhasil",
+    "Kredit usaha dikompensasikan tanpa kas atau biaya tambahan",
+    "Pembayaran lama dihubungkan tanpa duplikasi"
+  ],
+  "errors": []
+}

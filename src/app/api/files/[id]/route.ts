@@ -1,0 +1,3 @@
+import { readAssetBytes, readDashboard } from '@/lib/store';
+export const runtime='nodejs';
+export async function GET(_request:Request,ctx:{params:Promise<{id:string}>}){try{const {id}=await ctx.params;if(!/^[a-f0-9-]{36}$/.test(id))return new Response('File tidak ditemukan.',{status:404});const d=await readDashboard(),a=d.assets?.find(a=>a.id===id);if(!a)return new Response('File tidak ditemukan.',{status:404});const bytes=await readAssetBytes(id);return new Response(bytes,{headers:{'Content-Type':a.mime,'X-Content-Type-Options':'nosniff','Cache-Control':'private, no-store','Content-Disposition':`${a.mime==='application/pdf'?'attachment':'inline'}; filename*=UTF-8''${encodeURIComponent(a.name)}`}});}catch{return new Response('File tidak tersedia.',{status:404});}}

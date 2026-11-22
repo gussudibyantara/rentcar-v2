@@ -1,0 +1,4 @@
+const fs=require('node:fs'),{randomBytes}=require('node:crypto');
+const args=process.argv.slice(2),i=args.indexOf('--domain'),domain=i<0?'':args[i+1];
+if(!domain||!(/^(?=.{1,253}$)([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/i.test(domain))){console.error('Gunakan: node scripts/setup-vps.cjs --domain rental.domainmu.com');process.exit(1);}
+try{fs.writeFileSync('.env.vps',`# Rahasia VPS: jangan unggah ke GitHub atau bagikan.\nAPP_DOMAIN=${domain.toLowerCase()}\nPOSTGRES_PASSWORD=${randomBytes(32).toString('hex')}\nTRAVELOS_DB_PASSWORD=${randomBytes(32).toString('hex')}\nTRAVELOS_WORKSPACE_ID=main\nTRAVELOS_ALLOW_SIGNUP=0\nTRAVELOS_LEGACY_UPLOAD_WORKSPACE=main\n`,{flag:'wx',mode:0o600});console.log('.env.vps dibuat dengan password acak. File yang sudah ada tidak ditimpa.');}catch(error){console.error(error.code==='EEXIST'?'.env.vps sudah ada; tidak diubah.':'File konfigurasi tidak dapat ditulis.');process.exitCode=1;}

@@ -1,0 +1,8 @@
+# Use with: docker compose -f compose.yaml -f deploy/compose.existing-proxy.yaml --env-file .env.vps ...
+# For VPS installations that already have Nginx/Traefik/Caddy on ports 80/443.
+services:
+  web:
+    profiles: ["included-caddy"]
+  app:
+    ports:
+      - "127.0.0.1:3002:3000"

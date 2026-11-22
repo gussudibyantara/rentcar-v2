@@ -1,0 +1,40 @@
+{
+  "name": "travelos-rental",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1 --port 3002",
+    "build": "next build --webpack",
+    "start": "next start --hostname 127.0.0.1 --port 3002",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check:responsive": "node scripts/check-responsive.cjs",
+    "db:migrate": "node scripts/db-migrate.cjs",
+    "db:import": "node scripts/import-postgres.cjs",
+    "auth:create-user": "node scripts/manage-users.cjs create",
+    "auth:reset-password": "node scripts/manage-users.cjs reset-password",
+    "vps:setup": "node scripts/setup-vps.cjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@next/env": "16.4.6",
+    "@pdf-lib/fontkit": "1.1.1",
+    "lucide-react": "0.468.0",
+    "next": "16.4.6",
+    "pdf-lib": "1.17.1",
+    "pg": "^8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@types/node": "22.20.5",
+    "@types/pg": "^8.23.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

@@ -1,0 +1,21 @@
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {describe,it,expect,vi,afterEach} from 'vitest';
+import {makeEmptyData} from '../src/lib/empty-data';
+import {addDemoData} from '../src/lib/demo-data';
+import {invoiceBookingOptions,activeBookingInvoice,invoicePaid} from '../src/lib/invoice-shared';
+import {saveInvoice,issueInvoice,addInvoicePayment,invoiceSchema} from '../src/lib/invoice-service';
+import {createBooking} from '../src/lib/booking-service';
+import {partnerReport} from '../src/lib/partner-report';
+import {randomUUID} from 'node:crypto';
+import {todayISO} from '../src/lib/format';
+import {addDays} from '../src/lib/calendar';
+import InvoiceForm from '../src/components/invoice-form';
+afterEach(()=>vi.unstubAllGlobals());
+const callbacks={onClose:()=>{},onSaved:async()=>{},onOpenInvoice:()=>{}};
+describe('booking / invoice integration',()=>{
+ it('keeps every booking in the picker, identifying existing drafts and invoices without allowing duplicate invoices',()=>{const d=addDemoData(makeEmptyData()).data,options=invoiceBookingOptions(d);expect(options).toHaveLength(d.bookings.length);expect(options.filter(o=>o.invoice?.status==='draft')).toHaveLength(3);expect(options.filter(o=>o.invoice?.status==='issued')).toHaveLength(7);const i=d.invoices![0];expect(()=>saveInvoice(d,invoiceSchema.parse({...i}))).toThrow('invoice aktif');});
+ it('renders all booking choices and an existing-invoice action instead of a second billing form',()=>{vi.stubGlobal('React',React);const data=addDemoData(makeEmptyData()).data;for(const invoice of [data.invoices![0],data.invoices![9]]){const html=renderToStaticMarkup(React.createElement(InvoiceForm,{data,initialBooking:invoice.bookingId,...callbacks}));expect((html.match(/<option value="RN-/g)||[]).length).toBe(10);expect(html).toContain(invoice.status==='draft'?'Lanjutkan draft':'Lihat invoice');expect(html).not.toContain('Simpan draft &amp; preview');expect(html).not.toContain('Nama usaha');}});
+ it('shows cancelled bookings explicitly, disables new invoices, and allows a replacement only after a void document',()=>{const d=addDemoData(makeEmptyData()).data;const b=d.bookings[0];b.status='cancelled';d.invoices![0].status='void';const option=invoiceBookingOptions(d).find(o=>o.booking.id===b.id)!;expect(option.disabled).toBe(true);expect(option.label).toContain('Booking dibatalkan');expect(activeBookingInvoice(d,b.id)).toBeUndefined();expect(()=>saveInvoice(d,invoiceSchema.parse({...d.invoices![0]}))).toThrow('dibatalkan');});
+ it('propagates a newly created booking through calendar sources, invoice, payment, and partner report without double-counting',()=>{const d=addDemoData(makeEmptyData()).data,u=d.units[0],e=d.employees![0],start=new Date(addDays(todayISO(),20)+'T09:00:00+08:00').toISOString(),end=new Date(addDays(todayISO(),21)+'T09:00:00+08:00').toISOString();const b=createBooking(d,{requestId:randomUUID(),unitId:u.id,customerId:d.customers[0].id,start,end,pic:e.name,picEmployeeId:e.id,notes:'Integration test'});expect(invoiceBookingOptions(d).find(o=>o.booking.id===b.id)?.invoice).toBeUndefined();const i=saveInvoice(d,invoiceSchema.parse({bookingId:b.id,issueDate:todayISO(),dueDate:addDays(todayISO(),7),company:{name:'Rental Uji',address:'',phone:'',email:'',logoId:'',paymentInstructions:''},lines:[],discount:0,taxRate:0,notes:'',terms:''}));issueInvoice(d,i.id,i.revision);const payment={requestId:randomUUID(),amount:b.total,date:todayISO(),method:'transfer' as const,reference:'UJI',notes:'',attachments:[],receivedByEmployeeId:e.id};addInvoicePayment(d,i.id,i.revision,payment);addInvoicePayment(d,i.id,i.revision,payment);expect(b.paid).toBe(i.total);expect(invoicePaid(i)).toBe(b.paid);expect(i.payments).toHaveLength(1);expect(partnerReport(d,todayISO(new Date(start)).slice(0,7)).rows.some(r=>r.bookingIds.includes(b.id))).toBe(true);expect(activeBookingInvoice(d,b.id)?.id).toBe(i.id);});
+});

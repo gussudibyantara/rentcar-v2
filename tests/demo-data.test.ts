@@ -1,0 +1,12 @@
+import {describe,it,expect} from 'vitest';
+import {addDemoData,demoCollections,DEMO_MARKER} from '../src/lib/demo-data';
+import {makeEmptyData} from '../src/lib/empty-data';
+import {makeSeed} from '../src/lib/seed';
+import {invoicePaid} from '../src/lib/invoice-shared';
+import {partnerReport,settlementPaid} from '../src/lib/partner-report';
+import {todayISO} from '../src/lib/format';
+describe('explicit demo import',()=>{
+ it('creates exactly ten per collection, keeps links and financial totals consistent',()=>{const d=addDemoData(makeEmptyData()).data;for(const k of demoCollections)expect(d[k],k).toHaveLength(10);expect(d.assets).toEqual([]);for(const u of d.units){expect(d.partners?.some(p=>p.id===u.partnerId)).toBe(true);expect(u.branch).toBe('');}for(const b of d.bookings){expect(d.units.some(u=>u.id===b.unitId)).toBe(true);expect(d.customers.some(c=>c.id===b.customerId)).toBe(true);expect(b.partnerTerms?.kind).toBe('partner');}for(const i of d.invoices||[]){const b=d.bookings.find(b=>b.id===i.bookingId)!;expect(i.total).toBe(b.total);if(i.status==='issued')expect(invoicePaid(i)).toBe(b.paid);}for(const s of d.settlements||[])for(const p of s.payments)expect(d.expenses?.find(e=>e.id===p.expenseId)?.amount).toBe(p.amount);expect((d.settlements||[]).filter(s=>settlementPaid(s)>0)).toHaveLength(5);expect(partnerReport(d,todayISO().slice(0,7)).unknown).toEqual([]);});
+ it('preserves the input and every existing record, avoids identifier conflicts',()=>{const old=makeSeed(),snapshot=structuredClone(old),result=addDemoData(old).data;expect(old).toEqual(snapshot);for(const k of demoCollections){const prior=(old[k]||[]).length;expect(result[k]).toHaveLength(prior+10);const ids=(result[k]||[]).map(x=>x.id);expect(new Set(ids).size).toBe(ids.length);}for(const b of old.bookings)expect(result.bookings.find(r=>r.id===b.id)).toEqual(b);for(const u of old.units)expect(result.units.find(r=>r.id===u.id)).toEqual(u);});
+ it('is idempotent and uses only fictional demo contacts',()=>{const first=addDemoData(makeEmptyData()).data,result=addDemoData(first);expect(result.added).toBe(false);expect(result.data).toEqual(first);expect(first.activities.filter(a=>a.id===DEMO_MARKER)).toHaveLength(1);for(const c of [...first.customers,...first.partners||[],...first.employees||[]]){expect(c.name).toContain('Demo');expect(c.email).toMatch(/@example\.invalid$/);expect(c.phone).toBe('');}});
+});

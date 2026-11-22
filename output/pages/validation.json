@@ -1,0 +1,39 @@
+{
+  "passed": 14,
+  "checks": [
+    "Bookings route and active navigation",
+    "Search, status, payment, branch, date validation and pagination",
+    "Filtered CSV export",
+    "Create booking from Bookings page",
+    "Reschedule persists price and revision history",
+    "Booking details link to its real calendar week",
+    "Calendar day and month views",
+    "Calendar period navigation, empty state, branch and maintenance filters",
+    "Available calendar slot prefills booking",
+    "Cancellation persists, retains history and removes calendar reservation",
+    "Paid booking cancellation protected",
+    "No browser runtime errors during booking and calendar workflows",
+    "No document overflow in 48 page/width checks",
+    "Phone agenda, month, day, navigation, cards and drawers"
+  ],
+  "responsiveChecks": 48,
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    600,
+    760,
+    761,
+    768,
+    820,
+    1024,
+    1025,
+    1100,
+    1101,
+    1280,
+    1440,
+    1920
+  ],
+  "errors": []
+}

@@ -1,0 +1,277 @@
+{
+  "checks": [
+    {
+      "label": "/ filter 0",
+      "width": 320
+    },
+    {
+      "label": "/ filter 0",
+      "width": 390
+    },
+    {
+      "label": "/ filter 0",
+      "width": 820
+    },
+    {
+      "label": "/ filter 0",
+      "width": 1440
+    },
+    {
+      "label": "/bookings filter 0",
+      "width": 320
+    },
+    {
+      "label": "/bookings filter 0",
+      "width": 390
+    },
+    {
+      "label": "/bookings filter 0",
+      "width": 820
+    },
+    {
+      "label": "/bookings filter 0",
+      "width": 1440
+    },
+    {
+      "label": "/bookings filter 1",
+      "width": 320
+    },
+    {
+      "label": "/bookings filter 1",
+      "width": 390
+    },
+    {
+      "label": "/bookings filter 1",
+      "width": 820
+    },
+    {
+      "label": "/bookings filter 1",
+      "width": 1440
+    },
+    {
+      "label": "/calendar filter 0",
+      "width": 320
+    },
+    {
+      "label": "/calendar filter 0",
+      "width": 390
+    },
+    {
+      "label": "/calendar filter 0",
+      "width": 820
+    },
+    {
+      "label": "/calendar filter 0",
+      "width": 1440
+    },
+    {
+      "label": "/inspections filter 0",
+      "width": 320
+    },
+    {
+      "label": "/inspections filter 0",
+      "width": 390
+    },
+    {
+      "label": "/inspections filter 0",
+      "width": 820
+    },
+    {
+      "label": "/inspections filter 0",
+      "width": 1440
+    },
+    {
+      "label": "/reports filter 0",
+      "width": 320
+    },
+    {
+      "label": "/reports filter 0",
+      "width": 390
+    },
+    {
+      "label": "/reports filter 0",
+      "width": 820
+    },
+    {
+      "label": "/reports filter 0",
+      "width": 1440
+    },
+    {
+      "label": "/reports filter 1",
+      "width": 320
+    },
+    {
+      "label": "/reports filter 1",
+      "width": 390
+    },
+    {
+      "label": "/reports filter 1",
+      "width": 820
+    },
+    {
+      "label": "/reports filter 1",
+      "width": 1440
+    },
+    {
+      "label": "/expenses filter 0",
+      "width": 320
+    },
+    {
+      "label": "/expenses filter 0",
+      "width": 390
+    },
+    {
+      "label": "/expenses filter 0",
+      "width": 820
+    },
+    {
+      "label": "/expenses filter 0",
+      "width": 1440
+    },
+    {
+      "label": "/expenses filter 1",
+      "width": 320
+    },
+    {
+      "label": "/expenses filter 1",
+      "width": 390
+    },
+    {
+      "label": "/expenses filter 1",
+      "width": 820
+    },
+    {
+      "label": "/expenses filter 1",
+      "width": 1440
+    },
+    {
+      "label": "customers form 0",
+      "width": 320
+    },
+    {
+      "label": "customers form 0",
+      "width": 390
+    },
+    {
+      "label": "customers form 0",
+      "width": 820
+    },
+    {
+      "label": "customers form 0",
+      "width": 1440
+    },
+    {
+      "label": "units form 0",
+      "width": 320
+    },
+    {
+      "label": "units form 0",
+      "width": 390
+    },
+    {
+      "label": "units form 0",
+      "width": 820
+    },
+    {
+      "label": "units form 0",
+      "width": 1440
+    },
+    {
+      "label": "maintenance form 0",
+      "width": 320
+    },
+    {
+      "label": "maintenance form 0",
+      "width": 390
+    },
+    {
+      "label": "maintenance form 0",
+      "width": 820
+    },
+    {
+      "label": "maintenance form 0",
+      "width": 1440
+    },
+    {
+      "label": "maintenance form 1",
+      "width": 320
+    },
+    {
+      "label": "maintenance form 1",
+      "width": 390
+    },
+    {
+      "label": "maintenance form 1",
+      "width": 820
+    },
+    {
+      "label": "maintenance form 1",
+      "width": 1440
+    },
+    {
+      "label": "inspections form 0",
+      "width": 320
+    },
+    {
+      "label": "inspections form 0",
+      "width": 390
+    },
+    {
+      "label": "inspections form 0",
+      "width": 820
+    },
+    {
+      "label": "inspections form 0",
+      "width": 1440
+    },
+    {
+      "label": "expenses form 0",
+      "width": 320
+    },
+    {
+      "label": "expenses form 0",
+      "width": 390
+    },
+    {
+      "label": "expenses form 0",
+      "width": 820
+    },
+    {
+      "label": "expenses form 0",
+      "width": 1440
+    },
+    {
+      "label": "expenses form 1",
+      "width": 320
+    },
+    {
+      "label": "expenses form 1",
+      "width": 390
+    },
+    {
+      "label": "expenses form 1",
+      "width": 820
+    },
+    {
+      "label": "expenses form 1",
+      "width": 1440
+    },
+    {
+      "label": "Booking range",
+      "width": 320
+    },
+    {
+      "label": "Booking range",
+      "width": 390
+    },
+    {
+      "label": "Booking range",
+      "width": 820
+    },
+    {
+      "label": "Booking range",
+      "width": 1440
+    }
+  ],
+  "errors": []
+}

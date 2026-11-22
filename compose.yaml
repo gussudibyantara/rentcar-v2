@@ -1,0 +1,86 @@
+name: travelos
+services:
+  postgres:
+    image: postgres:17-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: travelos_admin
+      POSTGRES_DB: travelos
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Jalankan scripts/setup-vps.cjs}
+      TRAVELOS_DB_PASSWORD: ${TRAVELOS_DB_PASSWORD:?Jalankan scripts/setup-vps.cjs}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./deploy/init-app-user.sh:/docker-entrypoint-initdb.d/10-app-user.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U travelos_admin -d travelos"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  migrate:
+    image: travelos-app:local
+    build: .
+    command: ["node", "scripts/db-migrate.cjs"]
+    environment:
+      DATABASE_URL: postgresql://travelos_admin:${POSTGRES_PASSWORD}@postgres:5432/travelos
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+  app:
+    image: travelos-app:local
+    build: .
+    restart: unless-stopped
+    environment: &app-env
+      NODE_ENV: production
+      DATABASE_URL: postgresql://travelos_app:${TRAVELOS_DB_PASSWORD}@postgres:5432/travelos
+      TRAVELOS_AUTH_PROVIDER: postgres
+      TRAVELOS_WORKSPACE_ID: ${TRAVELOS_WORKSPACE_ID:-main}
+      TRAVELOS_ALLOW_SIGNUP: ${TRAVELOS_ALLOW_SIGNUP:-0}
+      TRAVELOS_LEGACY_UPLOAD_WORKSPACE: ${TRAVELOS_LEGACY_UPLOAD_WORKSPACE:-main}
+      TRAVELOS_UPLOAD_DIR: /var/lib/travelos/uploads
+      TRAVELOS_TRUST_PROXY: "1"
+      APP_URL: https://${APP_DOMAIN:?Isi APP_DOMAIN}
+    volumes:
+      - uploads:/var/lib/travelos/uploads
+    expose:
+      - "3000"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+  admin:
+    image: travelos-app:local
+    profiles: ["admin"]
+    command: ["node", "scripts/manage-users.cjs"]
+    environment: *app-env
+    volumes:
+      - uploads:/var/lib/travelos/uploads
+      - ./.local-data:/import:ro
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+  web:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      app:
+        condition: service_healthy
+volumes:
+  postgres_data:
+  uploads:
+  caddy_data:
+  caddy_config:

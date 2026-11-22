@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Draft dari booking, rincian, diskon, pajak, logo dan preview",
+    "Penerbitan nomor dan saldo awal tanpa penggandaan pembayaran",
+    "Pembayaran sebagian tersinkron; retry dan overpayment ditangani",
+    "Pembalikan beralasan mempertahankan transaksi awal",
+    "Pelunasan dan unduhan PDF biner langsung",
+    "Reload mempertahankan invoice dan pembayaran; booking terbit terkunci",
+    "PDF panjang dengan logo dan penanganan invoice tidak ditemukan"
+  ],
+  "errors": []
+}

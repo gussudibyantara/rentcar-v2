@@ -1,0 +1,299 @@
+Usaha Uji
+Alamat usaha
+
+REKAP PEMBAYARAN PEMILIK
+REKAP FINAL
+Nomor: SET-QA-LONG | Periode: 2026-10
+Dibuat: 2 Nov 2026
+
+PEMILIK KENDARAAN
+
+Pemilik Uji
+Alamat uji
+081200000000 | pemilik@example.invalid
+Rekening: Rekening uji
+
+RINCIAN HAK PEMILIK
+
+Kendaraan Rekanan Contoh 1 - QA 1
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-0-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-0-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-0-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-0-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-0-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-0-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-0-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+Kendaraan Rekanan Contoh 2 - QA 2
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-1-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-1-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-1-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-1-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-1-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-1-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+
+TravelOS | Rekap pemilik | IDR                                                    1/4
+Usaha Uji
+SET-QA-LONG | Pemilik Uji
+
+
+
+QA-1-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+Kendaraan Rekanan Contoh 3 - QA 3
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-2-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-2-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-2-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-2-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-2-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-2-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-2-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+Kendaraan Rekanan Contoh 4 - QA 4
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-3-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-3-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-3-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-3-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-3-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-3-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-3-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+Kendaraan Rekanan Contoh 5 - QA 5
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-4-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+
+TravelOS | Rekap pemilik | IDR                                                    2/4
+Usaha Uji
+SET-QA-LONG | Pemilik Uji
+
+
+
+QA-4-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-4-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-4-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-4-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-4-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-4-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+Kendaraan Rekanan Contoh 6 - QA 6
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-5-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-5-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-5-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-5-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-5-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-5-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-5-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+Kendaraan Rekanan Contoh 7 - QA 7
+7 booking | 3.50 hari tagihan
+                                                     Hak pemilik kendaraan    Rp 1.050.000
+
+                                                     Potongan biaya pemilik             Rp 0
+
+QA-6-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-6-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-6-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-6-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-6-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-6-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+QA-6-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                  Rp 150.000
+
+
+
+
+TravelOS | Rekap pemilik | IDR                                                    3/4
+Usaha Uji
+SET-QA-LONG | Pemilik Uji
+
+
+
+Kendaraan Rekanan Contoh 8 - QA 8
+7 booking | 3.50 hari tagihan
+                                                      Hak pemilik kendaraan                                        Rp 1.050.000
+
+                                                      Potongan biaya pemilik                                              Rp 0
+
+QA-7-0 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+QA-7-1 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+QA-7-2 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+QA-7-3 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+QA-7-4 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+QA-7-5 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+QA-7-6 | 31 Okt 2026 s/d 2 Nov 2026 | 0.50 hari | Modal harian                                                       Rp 150.000
+
+
+
+
+                                                      Hak kotor pemilik                                           Rp 8.400.000
+
+                                                      Potongan biaya pemilik                                              Rp 0
+
+                                                      Hak bersih pemilik                                        Rp 8.400.000
+
+                                                      Sudah dibayar                                                       Rp 0
+
+                                                      Kompensasi kredit                                              Rp 50.000
+
+                                                      Sisa / kredit                                             Rp 8.350.000
+
+
+RIWAYAT PEMBAYARAN
+
+Belum ada pembayaran tercatat.
+
+KOMPENSASI KREDIT USAHA
+
+Kredit masuk Rp 50.000 | SET-QA-CREDIT
+
+CATATAN KESEPAKATAN
+
+Catatan rekap
+
+Dokumen ini merangkum hak pemilik kendaraan, bukan invoice penjualan kepada pelanggan.
+Hari tagihan dan hak rental dibagi menurut durasi dalam periode; biaya tetap mengikuti hari kalender kontrak.
+Nilai sisa negatif menunjukkan kredit kepada usaha. Pembayaran dicatat terpisah dari hak pemilik.
+
+
+
+
+TravelOS | Rekap pemilik | IDR                                                                                         4/4
+

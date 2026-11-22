@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Pelanggan, kontak dan lampiran tersimpan setelah reload",
+    "Pelanggan diblokir ditolak oleh API booking",
+    "Aktivasi, arsip, dan pemulihan mempertahankan profil",
+    "Pengeluaran, bukti, dan pembayaran tersimpan setelah reload",
+    "Pembayaran ganda dan nominal tidak valid ditolak",
+    "Ekspor pengeluaran memuat transaksi terpilih",
+    "Laporan dan CSV menggunakan biaya yang tersimpan",
+    "Filter cabang dan keluaran cetak laporan berfungsi",
+    "Drawer responsif, fokus keyboard dan Escape pada 320/390/820/1280 px",
+    "Pembatalan menyimpan alasan dan riwayat"
+  ],
+  "errors": []
+}

@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "Create vehicle, upload photo and document, expiry reminder, reload and detail",
+    "Uploaded file delivery, invalid file rejection and duplicate plate protection",
+    "Schedule maintenance from vehicle and reject overlapping booking",
+    "Start and complete maintenance with actual costs and explicit ready confirmation",
+    "Schedule and start checkout, reject incomplete inspection",
+    "Five-side photo upload and persistent draft without premature handover",
+    "Accepted checkout starts rental and updates vehicle mileage",
+    "Check-in compares baseline, records damage and keeps unit in preparation",
+    "Damage creates linked maintenance and repairs release the unit without duplicate costs",
+    "Complete workflow survives browser reload",
+    "Calendar reflects ready unit after completed repair",
+    "Inspection editor adapts across phone, tablet and desktop",
+    "No browser runtime errors"
+  ],
+  "passed": 13,
+  "errors": []
+}

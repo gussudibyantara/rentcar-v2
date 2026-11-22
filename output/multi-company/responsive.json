@@ -1,0 +1,502 @@
+[
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 239
+      },
+      {
+        "minLength": "2",
+        "width": 239
+      },
+      {
+        "minLength": null,
+        "width": 239
+      },
+      {
+        "minLength": null,
+        "width": 181
+      },
+      {
+        "minLength": "12",
+        "width": 239
+      },
+      {
+        "minLength": "12",
+        "width": 239
+      }
+    ],
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 279
+      },
+      {
+        "minLength": "2",
+        "width": 279
+      },
+      {
+        "minLength": null,
+        "width": 279
+      },
+      {
+        "minLength": null,
+        "width": 221
+      },
+      {
+        "minLength": "12",
+        "width": 279
+      },
+      {
+        "minLength": "12",
+        "width": 279
+      }
+    ],
+    "overflow": false,
+    "width": 360
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 285
+      },
+      {
+        "minLength": "2",
+        "width": 285
+      },
+      {
+        "minLength": null,
+        "width": 285
+      },
+      {
+        "minLength": null,
+        "width": 227
+      },
+      {
+        "minLength": "12",
+        "width": 285
+      },
+      {
+        "minLength": "12",
+        "width": 285
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 325
+      },
+      {
+        "minLength": "2",
+        "width": 325
+      },
+      {
+        "minLength": null,
+        "width": 325
+      },
+      {
+        "minLength": null,
+        "width": 267
+      },
+      {
+        "minLength": "12",
+        "width": 325
+      },
+      {
+        "minLength": "12",
+        "width": 325
+      }
+    ],
+    "overflow": false,
+    "width": 430
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 410
+      },
+      {
+        "minLength": "2",
+        "width": 410
+      },
+      {
+        "minLength": null,
+        "width": 410
+      },
+      {
+        "minLength": null,
+        "width": 352
+      },
+      {
+        "minLength": "12",
+        "width": 410
+      },
+      {
+        "minLength": "12",
+        "width": 410
+      }
+    ],
+    "overflow": false,
+    "width": 760
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 273
+      },
+      {
+        "minLength": "2",
+        "width": 273
+      },
+      {
+        "minLength": null,
+        "width": 273
+      },
+      {
+        "minLength": null,
+        "width": 215
+      },
+      {
+        "minLength": "12",
+        "width": 273
+      },
+      {
+        "minLength": "12",
+        "width": 273
+      }
+    ],
+    "overflow": false,
+    "width": 761
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 276.5
+      },
+      {
+        "minLength": "2",
+        "width": 276.5
+      },
+      {
+        "minLength": null,
+        "width": 276.5
+      },
+      {
+        "minLength": null,
+        "width": 218.5
+      },
+      {
+        "minLength": "12",
+        "width": 276.5
+      },
+      {
+        "minLength": "12",
+        "width": 276.5
+      }
+    ],
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 302.5
+      },
+      {
+        "minLength": "2",
+        "width": 302.5
+      },
+      {
+        "minLength": null,
+        "width": 302.5
+      },
+      {
+        "minLength": null,
+        "width": 244.5
+      },
+      {
+        "minLength": "12",
+        "width": 302.5
+      },
+      {
+        "minLength": "12",
+        "width": 302.5
+      }
+    ],
+    "overflow": false,
+    "width": 820
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 384
+      },
+      {
+        "minLength": "2",
+        "width": 384
+      },
+      {
+        "minLength": null,
+        "width": 384
+      },
+      {
+        "minLength": null,
+        "width": 326
+      },
+      {
+        "minLength": "12",
+        "width": 384
+      },
+      {
+        "minLength": "12",
+        "width": 384
+      }
+    ],
+    "overflow": false,
+    "width": 1023
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 384
+      },
+      {
+        "minLength": "2",
+        "width": 384
+      },
+      {
+        "minLength": null,
+        "width": 384
+      },
+      {
+        "minLength": null,
+        "width": 326
+      },
+      {
+        "minLength": "12",
+        "width": 384
+      },
+      {
+        "minLength": "12",
+        "width": 384
+      }
+    ],
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 312
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      }
+    ],
+    "overflow": false,
+    "width": 1099
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 312
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      }
+    ],
+    "overflow": false,
+    "width": 1100
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 312
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      }
+    ],
+    "overflow": false,
+    "width": 1280
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 312
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      }
+    ],
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "fields": [
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": "2",
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 370
+      },
+      {
+        "minLength": null,
+        "width": 312
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      },
+      {
+        "minLength": "12",
+        "width": 370
+      }
+    ],
+    "overflow": false,
+    "width": 1920
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 320
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 360
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 430
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 768
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 820
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 1024
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 1440
+  },
+  {
+    "overflow": false,
+    "route": "/login",
+    "width": 1920
+  }
+]

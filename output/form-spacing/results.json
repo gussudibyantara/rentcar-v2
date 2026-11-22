@@ -1,0 +1,101 @@
+{
+  "checks": [
+    {
+      "route": "customers",
+      "width": 320
+    },
+    {
+      "route": "expenses",
+      "width": 320
+    },
+    {
+      "route": "units",
+      "width": 320
+    },
+    {
+      "route": "maintenance",
+      "width": 320
+    },
+    {
+      "route": "inspections",
+      "width": 320
+    },
+    {
+      "route": "bookings",
+      "width": 320
+    },
+    {
+      "route": "customers",
+      "width": 390
+    },
+    {
+      "route": "expenses",
+      "width": 390
+    },
+    {
+      "route": "units",
+      "width": 390
+    },
+    {
+      "route": "maintenance",
+      "width": 390
+    },
+    {
+      "route": "inspections",
+      "width": 390
+    },
+    {
+      "route": "bookings",
+      "width": 390
+    },
+    {
+      "route": "customers",
+      "width": 820
+    },
+    {
+      "route": "expenses",
+      "width": 820
+    },
+    {
+      "route": "units",
+      "width": 820
+    },
+    {
+      "route": "maintenance",
+      "width": 820
+    },
+    {
+      "route": "inspections",
+      "width": 820
+    },
+    {
+      "route": "bookings",
+      "width": 820
+    },
+    {
+      "route": "customers",
+      "width": 1440
+    },
+    {
+      "route": "expenses",
+      "width": 1440
+    },
+    {
+      "route": "units",
+      "width": 1440
+    },
+    {
+      "route": "maintenance",
+      "width": 1440
+    },
+    {
+      "route": "inspections",
+      "width": 1440
+    },
+    {
+      "route": "bookings",
+      "width": 1440
+    }
+  ],
+  "errors": []
+}
