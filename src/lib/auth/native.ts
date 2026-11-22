@@ -8,7 +8,10 @@ export function nativeUserFromToken(token:string|undefined){return sessionUser(g
 export async function currentNativeUser(){return nativeUserFromToken((await cookies()).get(NATIVE_COOKIE)?.value);}
 function cookieOptions(){
  const configured=process.env.APP_URL;let secure=false;
- if(configured){const url=new URL(configured);const local=['localhost','127.0.0.1','[::1]'].includes(url.hostname);if(!['http:','https:'].includes(url.protocol)||(!local&&url.protocol!=='https:'))throw Error('APP_URL harus menggunakan HTTPS.');secure=url.protocol==='https:';}
+ if(configured){
+  const url=new URL(configured);
+  secure=url.protocol==='https:';
+ }
  else if(process.env.NODE_ENV==='production')throw Error('APP_URL belum diisi.');
  return {httpOnly:true,sameSite:'lax' as const,secure,path:'/'};
 }
